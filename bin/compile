@@ -47,6 +47,7 @@ make -sC "${CACHE_DIR}/${ARCHIVE_DIR}" \
 	all \
 	install-bin
 
+cp $CACHE_DIR/$ARCHIVE_DIR/haproxy $BUILD_DIR/haproxy
 echo "       Done"
 
 exit 0
